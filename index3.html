@@ -9,8 +9,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body>
-    <nav class="navbar">
+  <body class="bg-gray-50">
+    <nav
+      class="navbar bg-gray-200 border-b-2 border-b-black/60 shadow-md shadow-black/30"
+    >
       <div class="logo">zoom</div>
       <a href="#" class="toogle-btn">
         <span class="bar"></span>
@@ -19,10 +21,16 @@
       </a>
       <div class="nav-menu">
         <ul>
-          <li><a href="">home</a></li>
-          <li><a href="/index3.html">about</a></li>
-          <li><a href="">services</a></li>
-          <li><a href="/contact-us.html">contact us</a></li>
+          <li>
+            <a href="/" class="hover:text-slate-500">home</a>
+          </li>
+          <li><a href="/index3.html" class="hover:text-slate-500">about</a></li>
+          <li><a href="" class="hover:text-slate-500">services</a></li>
+          <li>
+            <a href="/contact-us.html" class="hover:text-slate-500"
+              >contact us</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
