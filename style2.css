@@ -33,7 +33,6 @@ body {
   text-transform: uppercase;
 }
 .nav-menu ul li:hover {
-  background-color: saddlebrown;
   transition: 0.2 ease;
 }
 .toggle-btn {

@@ -10,7 +10,9 @@
   </head>
 
   <body class="bg-gray-50">
-    <nav class="navbar">
+    <nav
+      class="navbar bg-gray-200 border-b-2 border-b-black/60 shadow-md shadow-black/30"
+    >
       <div class="logo">zoom</div>
       <a href="#" class="toogle-btn">
         <span class="bar"></span>
@@ -19,33 +21,42 @@
       </a>
       <div class="nav-menu">
         <ul>
-          <li><a href="/">home</a></li>
-          <li><a href="/index3.html">about</a></li>
-          <li><a href="">services</a></li>
-          <li><a href="/contact-us.html">contact us</a></li>
+          <li>
+            <a href="/" class="hover:text-slate-500">home</a>
+          </li>
+          <li><a href="/index3.html" class="hover:text-slate-500">about</a></li>
+          <li><a href="" class="hover:text-slate-500">services</a></li>
+          <li>
+            <a href="/contact-us.html" class="hover:text-slate-500"
+              >contact us</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
     <div class="w-full mt-10 p-5 flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-semibold tracking-widest">
-            Contact Us
-        </h1>
+      <h1 class="text-4xl font-semibold tracking-widest">Contact Us</h1>
 
-        <div class="lg:w-2/3 md:w-4/5 w-full mt-10">
-            <h4 class="text-lg">
-                Email
-            </h4>
-            <input class="w-full border-2 border-black rounded-md px-3 py-2 outline-none mt-1 font-mono tracking-widest focus:shadow-lg focus:shadow-black/30 transition-all ease-in-out delay-2000" placeholder="Enter your email" type="email"/>
+      <div class="lg:w-2/3 md:w-4/5 w-full mt-10">
+        <h4 class="text-lg">Email</h4>
+        <input
+          class="w-full border-2 border-black rounded-md px-3 py-2 outline-none mt-1 font-mono tracking-widest focus:shadow-lg focus:shadow-black/30 transition-all ease-in-out delay-2000"
+          placeholder="Enter your email"
+          type="email"
+        />
 
-            <h4 class="text-lg mt-5">
-                Review
-            </h4>
-            <textarea class="w-full border-2 border-black rounded-md px-3 py-2 outline-none mt-1 font-mono tracking-widest resize-none h-40 focus:shadow-lg focus:shadow-black/30 transition-all ease-in-out delay-2000" placeholder="Enter your review or query"></textarea>
+        <h4 class="text-lg mt-5">Review</h4>
+        <textarea
+          class="w-full border-2 border-black rounded-md px-3 py-2 outline-none mt-1 font-mono tracking-widest resize-none h-40 focus:shadow-lg focus:shadow-black/30 transition-all ease-in-out delay-2000"
+          placeholder="Enter your review or query"
+        ></textarea>
 
-            <button class="mt-5 px-5 py-1 border-2 border-black rounded-md bg-yellow-400 text-lg hover:shadow-lg hover:shadow-black/30 transition-all ease-in-out delay-2000">
-                Submit
-            </button>
-        </div>
+        <button
+          class="mt-5 px-5 py-1 border-2 border-black rounded-md bg-yellow-400 text-lg hover:shadow-lg hover:shadow-black/30 transition-all ease-in-out delay-2000"
+        >
+          Submit
+        </button>
+      </div>
     </div>
   </body>
 </html>
